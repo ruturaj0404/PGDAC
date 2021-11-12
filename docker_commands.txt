@@ -1,0 +1,40 @@
+[ec2-user@ip-172-31-41-14 javafolder]$ history
+   sudo docker --version
+   yum whatprovides docker
+   sudo yum install docker-20.10.7-3.amzn2.x86_64
+   sudo service docker start
+   sudo systemctl status docker
+   which docker
+   sudo docker pull hello-world
+   sudo docker images
+   sudo docker run hello-world
+   sudo docker pull ubuntu
+   sudo docker run ubuntu
+   sudo docker images
+   sudo docker stop 714b52c28150
+   sudo docker ps -a
+   sudo docker rm 714b52c28150
+   sudo docker images
+   sudo docker ps -a
+   sudo yum whatprovides java
+   sudo yum install java-11-amazon-corretto-11.0.12
+   sudo yum install java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+   mkdir javafolder
+   cd javafolder
+   vi java1.java
+   vi Dockerfile
+   sudo docker build -t javafolder .
+   sudo docker images
+   sudo docker ps -a
+   sudo docker tag 0418ee1cdd53 ruturaj0404/demo2:javaprogram
+   sudo docker login
+   sudo docker push ruturaj0404/demo2
+   sudo docker ps -a
+   sudo docker run -td 0418ee1cdd53
+   sudo docker -t javafolder
+   sudo docker commit 90c81afbe59d image1
+   sudo docker images
+   sudo docker ps -a
+   sudo docker stop 41e70e2f1e99
+   sudo docker --rm 0418ee1cdd53
+   history

@@ -1,0 +1,65 @@
+[12:43] ruturaj209 (Guest)
+    1 pwd
+2 ls
+3 pwd
+4 pwd
+5 yum whatprovides docker
+6 sudo yum install docker -docker-18.09.9ce-2.amzn2.x86_64
+7 sudo yum install docker-docker-18.09.9ce-2.amzn2.x86_64
+8 docker-18.09.9ce-2.amzn2.x86_64
+9 sudo yum install docker-docker-18.09.9ce-2.amzn2.x86_64
+10 sudo yum install docker-18.09.9ce-2.amzn2.x86_64
+11 docker-version
+12 docker---version
+13 docker --version
+14 sudo systemctl start docker
+15 sudo service docker start
+16 sudo systemctl status docker
+17 sudo docker images
+18 sudo docker pull hello-world
+19 sudo docker run
+20 docker run hello-world
+21 sudo docker pull hello-world
+22 sudo docker run hello-world
+23 sudo docker images
+24 sudo docker pull ubuntu
+25 sudo docker run ubuntu
+26 sudo docker images
+27 docker stop feb5d9fea6a5
+28 sudo docker images
+29 docker stopfeb5d9fea6a5
+30 docker stop feb5d9fea6a5
+31 sudo docker stop feb5d9fea6a5
+32 sudo docker rm feb5d9fea6a5
+33 sudo docker ps -a
+34 sudo docker stop 53697365df5e
+35 sudo docker rm 53697365df5e
+36 sudo docker ps -a
+37 sudo yum whatprovides java
+38 sudo yum install java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+39 java -version
+40 mkdir java-app
+41 cd java-app
+42 vi hello.java
+43 vi Dockerfile
+44 sudo docker build -t java-app.
+45 sudo docker build -t java-app .
+46 vi Dockerfile
+47 sudo docker build -t java-app .
+48 vi hello.java
+49 sudo docker build -t java-app .
+50 vi hello.java
+51 sudo docker build -t java-app .
+52 sudo docker images
+53 vi Dockerfile
+54 sudo docker images
+55 sudo docker tag bf4eae6ec9a9 ruturaj0404/demo1:mycode
+56 sudo docker login
+57 sudo docker push ruturaj0404/demo1
+58 history
+
+
+
+
+
+    
